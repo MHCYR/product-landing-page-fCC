@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #2a2829;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.header {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  margin: 0 2.5rem;
+  justify-content: space-between;
+}
+.header__img {
+  height: 60px;
+  width: auto;
+}
+
+/* nav bar fixed */
+.nav-bar {
+}
+
+.nav-link {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.nav-link:hover {
+  color: #0099cc;
+  background-color: #333132;
+}
+
+.hero {
+  display: flex;
+  margin: 0 2.5rem;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  align-items: center;
+  height: 500px;
+}
+.hero__text {
+  width: 550px;
+}
+
+.hero__text h2 {
+  font-size: 42px;
+  margin-bottom: 0.3em;
+  line-height: 45px;
+}
+
+.hero__text p {
+  font-size: 22px;
+  margin-bottom: 2em;
+}
+
+.email {
+  background-color: #333132;
+  border: none;
+  border-radius: 60px;
+  padding: 5px 15px;
+  font-size: 22px;
+}
+.email:hover {
+  background-color: #464244;
+}
+
+.submit {
+  font-size: 22px;
+  border: none;
+  background-color: #ee7027;
+  padding: 5px 15px;
+  border-radius: 10px;
+  margin: 0 0.5em;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.submit:hover {
+  transform: scale(1.05, 1.05);
+}
+
+main {
+  margin: 0 2.5rem;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 2rem;
+  margin: 2rem 0;
+}
+
+.pricing h2,
+.contact h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.pricing__card {
+  width: 200px;
+  border: solid #4c35ac;
+  height: 250px;
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #333132;
+  transition: all 0.2s 0.2s ease-in-out;
+}
+.pricing__card:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.card__price {
+  background-color: #333132;
+  font-size: 30px;
+  margin-bottom: 0.5em;
+}
+.card__price h3,
+.card__text p {
+  background-color: #333132;
+}
+.card__text {
+  width: 125px;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 0.8em;
+  background-color: #333132;
+}
+
+.buy {
+  font-size: 22px;
+  border: none;
+  background-color: #ee7027;
+  padding: 5px 15px;
+  border-radius: 10px;
+  margin: 0 0.5em;
+  cursor: pointer;
+}
+
+.buy:hover {
+  background-color: #ec6212;
+}
+/* media querys */
