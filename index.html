@@ -22,12 +22,18 @@
       </div>
       <nav id="nav-bar" class="nav-bar">
         <!-- Hacer que los links te lleven a la seccion de la pag -->
-        <button id="nav-link" class="nav-link">Get started</button>
-        <button id="nav-link" class="nav-link">Pricing</button>
-        <button id="nav-link" class="nav-link">Contact</button>
+        <a class="nav-link" href="#hero"
+          ><button id="nav-link" class="nav-link-btn">Get started</button></a
+        >
+        <a class="nav-link" href="#pricing"
+          ><button id="nav-link" class="nav-link-btn">Pricing</button></a
+        >
+        <a class="nav-link" href="#contact">
+          <button id="nav-link" class="nav-link-btn">Contact</button></a
+        >
       </nav>
     </header>
-    <div class="hero">
+    <div class="hero" id="hero">
       <div class="hero__text">
         <h2>Lorem ipsum dolor sit amet consectetur.</h2>
         <p>
@@ -35,16 +41,16 @@
           tempore!
         </p>
         <form
-          action=" https://www.freecodecamp.com/email-submit"
           id="form"
+          action="https://www.freecodecamp.com/email-submit"
           class="form"
         >
           <input
-            type="email"
-            name=""
-            id="email"
             class="email"
-            placeholder="Email"
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email"
             required
           />
           <input type="submit" id="submit" class="submit" />
@@ -62,7 +68,7 @@
       </section>
     </div>
     <main>
-      <div class="pricing">
+      <div class="pricing" id="pricing">
         <h2>Prices</h2>
         <div class="container">
           <div class="pricing__card">
@@ -93,19 +99,19 @@
             <button class="buy">BUY</button>
           </div>
         </div>
-        <div class="contact">
+        <div class="contact" id="contact">
           <h2>Contact</h2>
           <div class="container">
             <div class="contact__box">
-              <i class="fas fa-phone"></i>
+              <i class="fas fa-phone icon"></i>
               <p>555 555 5555</p>
             </div>
             <div class="contact__box">
-              <i class="fas fa-map-marker-alt"></i>
+              <i class="fas fa-map-marker-alt icon"></i>
               <p>Hello World St.</p>
             </div>
             <div class="contact__box">
-              <i class="fab fa-facebook-square"></i>
+              <i class="fab fa-facebook-square icon"></i>
               <p>Facebook</p>
             </div>
           </div>
